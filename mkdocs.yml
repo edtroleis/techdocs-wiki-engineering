@@ -1,6 +1,4 @@
 site_name: Wiki de Engenharia
-# Avisos do mkdocs (links/nav quebrados) viram erro e falham o CI
-strict: true
 site_description: Padrões de código, code review, ADRs e glossário
 repo_url: https://github.com/edtroleis/techdocs-wiki-engineering
 edit_uri: edit/main/docs/
@@ -12,3 +10,10 @@ nav:
   - Glossário: glossario.md
 plugins:
   - techdocs-core
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+strict: true
