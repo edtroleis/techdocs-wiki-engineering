@@ -1,4 +1,6 @@
 site_name: Wiki de Engenharia
+# Avisos do mkdocs (links/nav quebrados) viram erro e falham o CI
+strict: true
 site_description: Padrões de código, code review, ADRs e glossário
 repo_url: https://github.com/edtroleis/techdocs-wiki-engineering
 edit_uri: edit/main/docs/
