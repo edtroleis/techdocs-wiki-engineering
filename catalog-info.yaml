@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wiki-engineering
+  title: Wiki de Engenharia
+  description: Padrões de código, code review, ADRs e glossário
+  tags: [wiki]
+  annotations:
+    github.com/project-slug: edtroleis/techdocs-wiki-engineering
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: production
+  owner: platform-team

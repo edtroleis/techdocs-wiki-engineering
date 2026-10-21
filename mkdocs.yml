@@ -1,0 +1,12 @@
+site_name: Wiki de Engenharia
+site_description: Padrões de código, code review, ADRs e glossário
+repo_url: https://github.com/edtroleis/techdocs-wiki-engineering
+edit_uri: edit/main/docs/
+nav:
+  - Início: index.md
+  - Padrões de código: padroes-codigo.md
+  - Code review: code-review.md
+  - ADRs: adrs.md
+  - Glossário: glossario.md
+plugins:
+  - techdocs-core
